@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="22" role="img" aria-label="license: CC0-1.0">
+  <title>license: CC0-1.0</title>
+  <defs>
+    <linearGradient id="gl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2233"/>
+      <stop offset="1" stop-color="#111722"/>
+    </linearGradient>
+    <linearGradient id="gr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a4a1a"/>
+      <stop offset="1" stop-color="#0e2a0e"/>
+    </linearGradient>
+  </defs>
+  <rect rx="3" width="168" height="22" fill="url(#gl)"/>
+  <rect rx="3" x="60" width="108" height="22" fill="url(#gr)"/>
+  <rect x="60" width="6" height="22" fill="url(#gr)"/>
+  <text x="8" y="15" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="10" fill="#bbb" letter-spacing="0.5">license</text>
+  <text x="68" y="15" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="10" fill="#80e080" font-weight="bold" letter-spacing="0.3">CC0-1.0</text>
+</svg>
