@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="{{.BadgeWidth}}"
+     height="22"
+     role="img"
+     aria-label="{{.Label}}: {{.Value}}">
+
+    <style> {{.CSS}} </style>
+
+    <!-- Badge structure -->
+    <rect class="label-bg"
+          width="{{.LabelBoxWidth}}"
+          height="22"
+          rx="0"/>
+
+    <rect class="value-bg"
+          width="{{.ValueBoxWidth}}"
+          height="22"
+          x = "{{.ValueBoxOffset}}"
+          rx="0"/>
+    
+    <!-- Text Geometry -->
+    <text class="label"
+          x="{{.LabelTextOffset}}"
+          y="15">
+        {{.Label}}
+    </text>
+
+    <text class="value"
+          x="{{.ValueTextOffset}}"
+          y="15">
+        {{.Value}}
+    </text>
+
+    <!-- edge rounding mask -->
+    <defs>
+    <clipPath id="THIS IS STILL TO DO">
+        <rect width="{{.BadgeWidth}}" height="22" rx="10" ry="3"/>
+    </clipPath>
+    </defs>
+</svg>

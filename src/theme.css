@@ -1,0 +1,18 @@
+.label {
+    fill: #bbb;
+    font: 10px DejaVu Sans, Verdana, sans-serif;
+}
+
+.label-bg {
+    fill: #1c2233;
+}
+
+.value {
+    fill: #f0c060;
+    font: bold 10px DejaVu Sans, Verdana, sans-serif;
+}
+
+.value-bg {
+    fill: #231b08;
+}
+
